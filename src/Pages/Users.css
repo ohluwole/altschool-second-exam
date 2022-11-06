@@ -1,0 +1,19 @@
+button {
+  width: 60px;
+  color: white;
+  font-size: 12px;
+  padding: 12px 0;
+  background: chocolate;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin: 5px 5px;
+  transition: all 0.5s;
+  transform: scale(1);
+  transition: all ease-in-out 0.5s;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: rgba(173, 88, 27, 0.939);
+}

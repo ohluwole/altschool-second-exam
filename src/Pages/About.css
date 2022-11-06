@@ -1,0 +1,121 @@
+h1 {
+  color: chocolate;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+h1:hover {
+  color: white;
+}
+
+.west-wrap {
+  width: 350px;
+  margin: 20px 0;
+}
+
+.west {
+  width: 350px;
+  object-fit: cover;
+  height: 230px;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 20px 0;
+  transition: transform 0.5s;
+}
+
+.west:hover {
+  transform: translateY(-10px);
+}
+
+.al-wrap {
+  width: 350px;
+}
+
+.al {
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 20px 0;
+  transition: transform 0.5s;
+}
+
+.al:hover {
+  transform: translateY(-10px);
+}
+
+.pyramid-wrap {
+  width: 350px;
+}
+
+.giza {
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: transform 0.5s;
+}
+
+.giza:hover {
+  transform: translateY(-10px);
+}
+
+.kalahari-wrap {
+  width: 350px;
+}
+
+.kala {
+  width: 350px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 15px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: transform 0.5s;
+}
+
+.kala:hover {
+  transform: translateY(-10px);
+}
+
+.desert-1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desert-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  color: white;
+  text-shadow: 0 0 3px #999;
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.details {
+  width: 180px;
+  color: white;
+  font-size: 12px;
+  padding: 8px 60px;
+  background: chocolate;
+  border: 0;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 30px;
+  transform: scale(1);
+  transition: all ease-in-out 0.5s;
+}
+.details:hover {
+  transform: scale(1.5);
+  background-color: rgba(173, 88, 27, 0.939);
+}
