@@ -23,7 +23,7 @@ function About() {
           <img className="west" src={pic_1} alt="western-desert" />
           <a
             className="details"
-            href="https://en.wikipedia.org/wiki/Western_Desert_(Egypt)"
+            href="https://en.wikipedia.org/wiki/Western_Desert_(Egypt)" target="_blank" rel="noopener noreferrer"
           >
             Details
           </a>
@@ -33,7 +33,7 @@ function About() {
           <img className="al" src={pic_2} alt="al-bagawat" />
           <a
             className="details"
-            href="https://en.wikipedia.org/wiki/El_Bagawat"
+            href="https://en.wikipedia.org/wiki/El_Bagawat" target="_blank" rel="noopener noreferrer"
           >
             Details
           </a>
@@ -45,7 +45,7 @@ function About() {
           <img className="giza" src={pic_3} alt="pyramid-of-giza" />
           <a
             className="details"
-            href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza"
+            href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza" target="_blank" rel="noopener noreferrer"
           >
             Details
           </a>
@@ -55,7 +55,7 @@ function About() {
           <img className="kala" src={pic_4} alt="kalahari-desert" />
           <a
             className="details"
-            href="https://en.wikipedia.org/wiki/Kalahari_Desert"
+            href="https://en.wikipedia.org/wiki/Kalahari_Desert" target="_blank" rel="noopener noreferrer"
           >
             Details
           </a>
